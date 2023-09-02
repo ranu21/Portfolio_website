@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.container{
+    display: flex;
+
+}
+.sidebar{
+    background-color: rgb(159, 157, 157);
+    width: 10vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 23px;
+    
+}
+.sidebar nav li{
+    margin-top: 45px;
+    list-style: none;
+    font-size: 25px;
+    padding: 32px;
+    
+}
+
+.sidebar nav li a{
+
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: rgb(240, 242, 244);
+    width: 90vw;
+}
+
+.infocontainer{
+    background-color:   rgb(240, 242, 244);
+    height: 64vh;
+    width: 80vw;
+    margin: 66px auto;
+    display: flex;
+}
+
+.devimgage{
+    background-attachment: rgb(255, 0, 153);
+}
+
+.devinfo{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 60px;
+    font-style: unset;
+}
+
+.name{
+    font-size: 45px;
+    font-style: oblique;
+}
+
+.about{
+  font-size: 40px;
+}
+
+.buttons button{
+    border-radius: 21px;
+    font-size: 21px;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+}
+.buttons button:hover{
+    color: white;
+    background-color: rgb(29, 43, 38);
+}
+.moreabout{
+  font-size: 30px;
+  font-style: unset;
+  margin-top: 23px;
+}
+
+.buttons{
+    margin-top: 27px
+}
+
+.contactform {
+    
+    text-align: center;
+}
+.contactform h1{
+    font-size: 52px;
+    color: black;
+    margin-top: 128px;
+}
+
+.contactform form div{
+    font-size: 33px;
+    margin-top: 23px;
+}
+
+.contactform form div input{
+    width: 450px;
+    height: 33px;
+    margin-left: 21px
+}
+
+#fname{
+    margin-left: 66px
+}
+
+#phone{
+    margin-left: 5px;
+}
+
+
+
+input[type=submit]{
+    font-size: 26px;
+    margin-top: 21px;
+    height: 2pc;
+    width: 7pc;
+
+}
+.intro h1{
+    margin-left: 55px;
+    margin-top: 74px;
+    font-size: 46px;
+    font-style: oblique;
+    color: rgb(64, 13, 13);
+}
+.intro p{
+    margin-left: 61px;
+    font-size: 35px;
+    font-style: calc();
+    margin-top: 35px;
+    margin-right: 45px;
+
+}
+.skills {
+    margin-left: 100px;
+    font-size: 30px;
+    font-style: calc();
+    padding-top: 10px;
+    margin-right: 45px;;
+
+}
+.skill{
+    background-color: red;
+    width: 244px;
+    height: 8px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.skillbox{
+    display: flex;
+    margin-left: -36px;
+}
+
+.project{
+    margin-left: 100px;
+    font-size: 30px;
+    font-style: calc();
+    padding-top: 10px;
+    margin-right: 45px;;
+
+}
+
+.resume img {
+    height: 101vh;
+    margin-left: 80px;
+}
+
+.devimage{
+    mix-blend-mode:multiply;
+    height : 400px;
+    width: 50px;
+    margin-left:300px;
+    margin-top: 50px;
+
+}
